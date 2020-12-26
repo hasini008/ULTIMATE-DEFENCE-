@@ -24,7 +24,7 @@ function setup() {
       if(damage<10){
         wall.shapeColor = color( 8 , 255 , 0); 
     } 
-     drawSprites(); }
+     drawSprites(); 
      
     function hasCollided( Xbullet , Xwall){ 
       bulletRightEdge = Xbullet.x + Xbullet.width; wallLeftEdge = wall.x; 
