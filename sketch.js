@@ -27,8 +27,8 @@ function setup() {
     } 
      drawSprites(); 
    }
-     
-    function hasCollided( Xbullet , Xwall){ 
+      function hasCollided( Xbullet , Xwall){ 
       bulletRightEdge = Xbullet.x + Xbullet.width; wallLeftEdge = wall.x; 
       if(bulletRightEdge>= wallLeftEdge){ return true; } return false;
    }
+}
