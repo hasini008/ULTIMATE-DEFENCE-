@@ -8,7 +8,7 @@ function setup() {
   speed = random( 223 , 321 );
   weight = random(  30 , 50 );
    bullet = createSprite(400, 100, 10, 20);
-  bullet.velocityX = 10;
+  bullet.velocityX = 20;
    bullet.shapeColor = "white";
 
    thickness=random(22 , 83);
