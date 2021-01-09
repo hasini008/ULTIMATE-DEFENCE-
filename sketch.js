@@ -8,12 +8,12 @@ function setup() {
   speed = random( 223 , 321 );
   weight = random(  30 , 50 );
    bullet = createSprite(400, 100, 10, 20);
-  bullet.velocityX = -10;
+  bullet.velocityX = 10;
    bullet.shapeColor = "white";
 
    thickness=random(22 , 83);
    wall = createSprite(1200 , 200 , thickness , height/2 );
-    
+}
    function draw (){
     background(80 , 80 , 80);
     if(hasCollided(bullet , wall)){ 
@@ -31,4 +31,4 @@ function setup() {
       bulletRightEdge = Xbullet.x + Xbullet.width; wallLeftEdge = wall.x; 
       if(bulletRightEdge>= wallLeftEdge){ return true; } return false;
    }
-}
+
