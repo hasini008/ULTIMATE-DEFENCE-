@@ -23,7 +23,7 @@ function setup() {
       wall.shapeColor = color(255 , 0 , 0); 
     } 
       if(damage<10){
-        wall.shapeColor = color( 8 , 255 , 0); 
+        bullet.shapeColor = color( 8 , 255 , 0); 
     } 
      drawSprites(); 
    }
